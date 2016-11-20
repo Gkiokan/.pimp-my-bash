@@ -13,7 +13,8 @@ alias lsa="ls -al"
 # moving arround
 alias ..="cd .."
 alias ~="cd ~"
-alias /="cd /"
+alias home="cd ~"
+#alias /="cd /" # hopla, problems on win.
 
 # basic git
 alias gs="git status"
