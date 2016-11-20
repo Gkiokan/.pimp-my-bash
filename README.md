@@ -17,7 +17,7 @@ For the Arrow and Branch Icon you must have setup a powerline font.
 
 
 ## How to install?
-`git clone https://github.com/gkiokan/.pimp-my-bash ~/.pimp-my-bash`
+`git clone https://github.com/gkiokan/.pimp-my-bash ~/.pimp-my-bash && echo source ~/.pimp-my-bash/load.sh >> ~/.bashrc`
 
 ## Do I need anything else?
 Acctually no. The Prompt builds on top of git bash, so it should be preinstalled before.
