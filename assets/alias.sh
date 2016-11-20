@@ -12,3 +12,11 @@ alias lsa="ls -al"
 
 # moving arround
 alias ..="cd .."
+alias ~="cd ~"
+alias /="cd /"
+
+# basic git
+alias gs="git status"
+alias ga="git add -A :/ && gs"
+alias gc="git commit"
+alias gcm="gc -m "

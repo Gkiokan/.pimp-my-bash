@@ -43,12 +43,26 @@ then
 	COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
 	COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
 	COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+
 	if test -f "$COMPLETION_PATH/git-prompt.sh"
 	then
 		. "$COMPLETION_PATH/git-completion.bash"
 		. "$COMPLETION_PATH/git-prompt.sh"
 		#PS1="$PS1"'\[\033[36m\]'  # change color to cyan
-		PS1="$PS1"'\[\033[33m\]  '  # change color to yellow
+		PS1="$PS1"'\[\033[33m\]'  # change color to yellow
+
+		# Check for repository folder
+		# we will leave this for now, cuz it's not working right :(
+		if git rev-parse --git-dir > /dev/null 2>&1; then
+				:
+					# We will add the Icon here, if we are in a git repository.
+					# I guess this will be better handled in a function later on...
+				  # PS1="$PS1"' '  # change color to yellow
+		else
+			  : # do nothing
+		fi
+
+		# Continue git bash scritp
 		PS1="$PS1"'`__git_ps1`'   # bash function
     PS1="$PS1 - You are pimped!"
 	fi
