@@ -14,6 +14,9 @@ So I made this PROMPT which looks like the agnoster Theme on oh-my-zsh.
 Just clone this repository in your home directory and source the
 _~/.pimp-my-bash/load.sh_ in your _.bashrc_ and you are ready to go.
 For the Arrow and Branch Icon you must have setup a powerline font.
+
+
+## How to install?
 `git clone https://github.com/gkiokan/.pimp-my-bash ~/.pimp-my-bash`
 
 ## Do I need anything else?
