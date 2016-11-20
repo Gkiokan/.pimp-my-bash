@@ -3,23 +3,29 @@
 ## What is _pimp-my-bash_?
 It just gives you a nice PROMPT for your basic Git-Bash on Windows.
 
+
 ## Why?
 I love to use the bare git bash, cuz it's fast, easy to use, and
 brings all the nessesary unix tools with it. But it's ugly.
 So I made this PROMPT which looks like the agnoster Theme on oh-my-zsh.
 
+
 ## How can i use it?
 Just clone this repository in your home directory and source the
 _~/.pimp-my-bash/load.sh_ in your _.bashrc_ and you are ready to go.
+For the Arrow and Branch Icon you must have setup a powerline font.
+`git clone https://github.com/gkiokan/.pimp-my-bash ~/.pimp-my-bash`
 
 ## Do I need anything else?
-Yes, for the Arrow and Branch Icon you must have setup a powerline font.
+Acctually no. The Prompt builds on top of git bash, so it should be preinstalled before.
+
 
 ## Can I change the Colors?
 Yes and No. Of course you can change it in bash Code, but this sux acctually.
 I've prepared a color file for the easy usage. I will implement a nice configuration
 file for this, too. Acctually it is not easy to change, but feel free to do so.
 You can find the _colors.sh_ in assets.
+
 
 ## Any other features?
 Yes, you get a _alias.sh_ for some very quick aliase in bash.
