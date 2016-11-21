@@ -1,4 +1,5 @@
 # Pimp my Bash
+![Pimp-my-Bash](/pimp-my-bash.png?raw=true ".pimp-my-bash by G")
 
 ## What is _pimp-my-bash_?
 It just gives you a nice PROMPT for your basic Git-Bash on Windows.
